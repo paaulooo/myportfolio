@@ -134,9 +134,7 @@ export default function Home() {
           </div>
           
           <p className="text-sm sm:text-base text-justify">I am a Brazilian Software Engineering student passionate about creating efficient and scalable technological solutions. With a solid foundation in object-oriented programming, my current main focus is on development using Java, while also actively exploring other modern languages and frameworks. I seek to apply my theoretical knowledge to practical projects that generate value, transforming complex ideas into functional and high-quality software. I am constantly learning and ready for the challenges of engineering.</p>
-          <p className="text-sm sm:text-base text-center">
-            Email: paulorobertofer98@gmail.com
-          </p>
+          
         </div>
       </section>
 
