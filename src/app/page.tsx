@@ -1,4 +1,5 @@
 'use client'
+
 import MouseBlob from "./mouseBlob";
 import { useState } from "react";
 //import SideBar from "./sideBar";
@@ -6,6 +7,11 @@ export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
+    
+    <body className="selection:bg-purple-900">
+      
+    
+
     <div className="relative min-h-screen bg-black overflow-hidden flex flex-col font-mono scroll-smooth">
 
       <MouseBlob/>
@@ -141,5 +147,6 @@ export default function Home() {
       </section>
 
     </div>
+    </body>
   );
 }
