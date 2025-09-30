@@ -48,15 +48,15 @@ export default function Home() {
             Software Engineer - Back End
           </h1>
           <ol className="flex flex-row text-4xl gap-x-3 sm:gap-x-4 md:gap-x-6 flex-wrap justify-center">
-            <li><img className="transition-all max-w-[30px] sm:max-w-[35px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="" /></li>
-            <li><img className="transition-all max-w-[30px] sm:max-w-[35px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="" /></li>
-            <li><img className="transition-all max-w-[30px] sm:max-w-[35px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" alt="" /></li>
-            <li><img className="transition-all max-w-[30px] sm:max-w-[35px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="" /></li>
-            <li><img className="transition-all max-w-[30px] sm:max-w-[35px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=38561&format=png&color=000000" alt="" /></li>
-            <li><img className="transition-all max-w-[30px] sm:max-w-[35px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=rgPSE6nAB766&format=png&color=000000" alt="" /></li>
-            <li><img className="transition-all max-w-[30px] sm:max-w-[35px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="" /></li>
-            <li><img className="transition-all max-w-[30px] sm:max-w-[35px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000" alt="" /></li>
-            <li><img className="transition-all max-w-[30px] sm:max-w-[35px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=33039&format=png&color=000000" alt="" /></li>
+            <li><img className="transition-all max-w-[25px] sm:max-w-[30px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="" /></li>
+            <li><img className="transition-all max-w-[25px] sm:max-w-[30px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="" /></li>
+            <li><img className="transition-all max-w-[25px] sm:max-w-[30px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" alt="" /></li>
+            <li><img className="transition-all max-w-[25px] sm:max-w-[30px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="" /></li>
+            <li><img className="transition-all max-w-[25px] sm:max-w-[30px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=38561&format=png&color=000000" alt="" /></li>
+            <li><img className="transition-all max-w-[25px] sm:max-w-[30px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=rgPSE6nAB766&format=png&color=000000" alt="" /></li>
+            <li><img className="transition-all max-w-[25px] sm:max-w-[30px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="" /></li>
+            <li><img className="transition-all max-w-[25px] sm:max-w-[30px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000" alt="" /></li>
+            <li><img className="transition-all max-w-[25px] sm:max-w-[30px] md:max-w-[40px] transition-discrete hover:scale-200 translate-z-0" src="https://img.icons8.com/?size=100&id=33039&format=png&color=000000" alt="" /></li>
           </ol>
         </div>
       </section>
@@ -127,12 +127,14 @@ export default function Home() {
       <section id="about" className="flex flex-col items-center justify-center gap-y-4 sm:gap-y-5 min-h-screen py-8 sm:py-12 px-4">
         <div className="flex flex-col gap-y-3 max-w-2xl w-full">
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold animate-pulse">About me</h1>
-          <div className="flex">
+          <div className="flex gap-x-3 flex-wrap">
             <a href="https://www.linkedin.com/in/paulorobertofer/" target="_blank">
-              <img className="max-w-8 sm:max-w-10 transition-all transition-discrete hover:scale-120 translate-z-0" src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="" />
+              <img className="max-w-[40px] sm:max-w-10 transition-all transition-discrete hover:scale-120 translate-z-0" src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt=""/>
+            </a>
+            <a href="https://github.com/paaulooo" target="_blank">
+              <img src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000" alt="" className="max-w-[40px]"/>
             </a>
           </div>
-          
           <p className="text-sm sm:text-base text-justify">I am a Brazilian Software Engineering student passionate about creating efficient and scalable technological solutions. With a solid foundation in object-oriented programming, my current main focus is on development using Java, while also actively exploring other modern languages and frameworks. I seek to apply my theoretical knowledge to practical projects that generate value, transforming complex ideas into functional and high-quality software. I am constantly learning and ready for the challenges of engineering.</p>
           
         </div>
