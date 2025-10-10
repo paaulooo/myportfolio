@@ -8,11 +8,11 @@ export default function Home() {
 
   return (
     
-    <body className="selection:bg-purple-900">
+    <body className="selection:bg-purple-900 scroll-smooth">
       
     
 
-    <div className="relative min-h-screen bg-black overflow-hidden flex flex-col font-mono scroll-smooth">
+    <div className="relative min-h-screen bg-black overflow-hidden flex flex-col font-mono">
 
       <MouseBlob/>
 
@@ -118,6 +118,19 @@ export default function Home() {
               <p className="text-xs sm:text-sm flex-grow">A Banana Clicker Game Clone for android, this project was developed with Java in Android Studio.</p>
               <div className="flex justify-center pt-3 pb-3">
                 <a href="https://github.com/paaulooo/Banana-Clicker-Android"
+                className="flex justify-center items-center w-20 sm:w-25 h-6 sm:h-7 bg-white rounded-lg transition-all transition-discrete hover:scale-105 translate-z-0" target="_blank"
+                ><label className="text-black text-xs sm:text-sm">Github</label>
+                </a>
+              </div>
+              
+            </div>
+            </div>
+            <div className="w-full sm:w-[350px] md:w-[300px] lg:w-[250px] relative min-h-[200px] sm:h-70 bg-black-200/15 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20 animate-pulse transition-all transition-discrete hover:scale-110 translate-z-0 hover:animate-none flex flex-col">
+            <div className="text-justify flex flex-col gap-3 px-3 py-3 flex-grow">
+              <h1 className="text-center text-sm sm:text-base">URLshorts</h1>
+              <p className="text-xs sm:text-sm flex-grow">A URL shortener developed using Java, Spring, PostgreSQL, Gradle, Shell script for testing and insomnia for REST API tests (GET, POST).</p>
+              <div className="flex justify-center pt-3 pb-3">
+                <a href="https://github.com/paaulooo/urlshorts"
                 className="flex justify-center items-center w-20 sm:w-25 h-6 sm:h-7 bg-white rounded-lg transition-all transition-discrete hover:scale-105 translate-z-0" target="_blank"
                 ><label className="text-black text-xs sm:text-sm">Github</label>
                 </a>
